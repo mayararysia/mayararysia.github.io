@@ -1,52 +1,57 @@
 <!DOCTYPE HTML>
 <html>
-
 	<head>
-    	<title>Mayara Rysia</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<title>Mayara Rysia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<body class="is-loading">
 
-	<body>
-		<div class="content">
-			<div class="wrap">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-				<div class="content-grid">
-					<p><img src="images/top.png" title=""></p>
-				</div>
-
-				<div class="grid">
-					<p><img src="images/coming.png" title=""></p>
-				</div>
-
-		
-				<div class="footer">
-					<p class="a">
-						<a href="https://www.facebook.com/mayara.rysia" target="_blank">
-							<img src="images/icon/glossy/facebook-dreamstale25.png">
-						</a>
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Mayara</h1>
+							<p>Técnica em informática</p>
+							Back-end developer<br> estudante dedicada e sonhadora<br> amante de livros, músicas e tecnologias</p>
+						</header>
 						
-						<a href="https://www.google.com/+MayaraRysia" target="_blank">
-							<img src="images/icon/glossy/google+-dreamstale37.png" >
-						</a>
+						<footer>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/mayara.rysia" target="_blank"class="fa-facebook">Facebook</a></li>
+								<li><a href="https://www.google.com/+MayaraRysia" target="_blank" class="fa-google-plus">Google Plus</a></li>
+								<li><a href="https://github.com/mayararysia/" target="_blank" class="fa-github-alt">GitHub</a></li>
+								<li><a href="https://br.linkedin.com/in/mayara-rysia-0b780593" target="_blank" class="fa-linkedin">Linkedin</a></li>
+								<li><a href="mailto:mayara.ryzia@gmail.com" target="_blank" class="fa fa-envelope">E-mail</a></li>
+							</ul>
+						</footer>
+					</section>
 
-						<a href="https://instagram.com/mayararysia/" target="_blank">
-							<img src="images/icon/glossy/instagram-dreamstale43.png">
-						</a>
-
-						<a href="https://github.com/mayararysia" target="_blank">
-							<img src="images/icon/glossy/github2-dreamstale35.png">
-						</a>
-
-						<a href="https://www.linkedin.com/in/mayara-rysia-0b780593" target="_blank">
-							<img src="images/icon/glossy/linkedin-dreamstale45.png">
-						</a>
-
-					</p>
-				</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
 			</div>
-		</div>
-		
-	</body>
 
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
 </html>
